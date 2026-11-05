@@ -117,7 +117,7 @@ static TArray<FName> GetMappingNamesForKey(const FKey& InKey);
 |FPUILayoutManager|UI布局管理：用来管理UCommonActivatableWidgetContainerBase堆栈控件|
 |W_UILayoutManager|继承`FPUILayoutManager`的控件，添加了四个堆栈控件|
 |FPUIUserWidget|继承于`UCommonActivatableWidget`，聚焦`FPUIUserWidget`控件时，会设置输入模式和显示鼠标光标，默认游戏输入模式且不显示鼠标。可以通过`InputMode`设置控件的输入模式 ![FPUI_InputMode](https://github.com/FirePlume126/FP_Common/blob/main/Images/FPUI_InputMode.png)|
-|FPUIMenuWidget|继承于`FPUIUserWidget`，默认UI输入模式且显示鼠标，可以被Escape按键关闭|
+|FPUIMenuWidget|继承于`FPUIUserWidget`，默认UI输入模式且显示鼠标，控件可以被设置的按键关闭|
 
 * **使用指南**
 
